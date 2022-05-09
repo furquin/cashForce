@@ -1,11 +1,12 @@
 import React from 'react';
-import DataNf from './components/dataNf'
+import NotaFiscal from './pages/notaFiscal';
+import SideBar from './components/sideBar'
 
 export default function App () {
 
   return (
     <div>
-      <DataNf />
-    </div>
+      <NotaFiscal />
+    </div>    
   );
 }

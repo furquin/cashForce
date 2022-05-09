@@ -7,11 +7,10 @@ export default function DataNf () {
   useEffect(() => {
     ordersAPI(setOrders);
   }, [setOrders]);
-    
-  console.log(orders)
   return (
     <div >
-      <h1 className='text-white' >nota fiscal</h1>
+      
+      <h1 >nota fiscal</h1>
       <h1> sacado </h1>
       <h1> cedente </h1>
       <h1> emissão  </h1>
