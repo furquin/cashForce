@@ -3,8 +3,6 @@ import maosBlue from '../images/maosBlue.png'
 
 export default function NamePage () {
 
-const titles = ['nota fiscal', 'sacado', 'cedente', 'emissão', 'valor', 'status', 'dados do cedente']
-
   return (
       <div className='flex flex-col justify-start p-0 absolute w-255 h-53 ml-336 mt-104' >
           <div className='flex flex-col justify-start p-0 static w-255 h-53 ml-0 mt-0 grow-0'>
