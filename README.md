@@ -52,7 +52,7 @@
 ```bash
     # Clonar repositório
 
-    $ git clone https://github.com/furquin/smith
+    $ git clone git@github.com:furquin/cashForce.git
 
     # Entrar no diretório de back-end
 
