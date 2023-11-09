@@ -20,4 +20,4 @@ app.use('/orders', routerOrders)
 app.use(error)
 
 
-app.listen(3005, () => console.log('ouvindo porta 3005'))
+app.listen(process.env.PORT, () => console.log(`ouvindo porta ${process.env.PORT}`))
